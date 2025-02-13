@@ -9,7 +9,6 @@ on:
     # Run on push events to non-default branches
     branches-ignore:
       - master
-
 jobs:
   test:
     runs-on: ubuntu-latest
