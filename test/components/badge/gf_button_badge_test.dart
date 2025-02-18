@@ -8,7 +8,7 @@ void main() {
       MaterialApp(
         home: Scaffold(
           body: GFButtonBadge(
-            icon: Icon(Icons.add),
+            icon: Icon(Icons.add), onPressed: () {},
           ),
         ),
       ),
