@@ -258,8 +258,8 @@ class _GFButtonBadgeState extends State<GFButtonBadge> {
             icon: widget.icon,
             blockButton: widget.blockButton,
             fullWidthButton: widget.fullWidthButton,
-            disabledColor: widget.disabledTextColor,
-            disabledTextColor: widget.disabledColor,
+            disabledColor: widget.disabledColor,
+            disabledTextColor: widget.disabledTextColor,
           ),
         ),
       );
