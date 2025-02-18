@@ -22,7 +22,7 @@ void main() {
       MaterialApp(
         home: Scaffold(
           body: GFButtonBadge(
-            label: Text('Button Badge'),
+            text: 'Button Badge', onPressed: () {},
           ),
         ),
       ),
