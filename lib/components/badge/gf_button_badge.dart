@@ -254,7 +254,7 @@ class _GFButtonBadgeState extends State<GFButtonBadge> {
             position: widget.position,
             size: widget.size,
             borderSide: widget.borderSide,
-            text: widget.text,
+            text: widget.text ?? (widget.icon != null ? '' : null),
             icon: widget.icon,
             blockButton: widget.blockButton,
             fullWidthButton: widget.fullWidthButton,
