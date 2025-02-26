@@ -7,7 +7,7 @@ void main() {
     await tester.pumpWidget(
       MaterialApp(
         home: Scaffold(
-          body: GFBadgeIcon(icon: Icon(Icons.star)),
+          body: GFIconBadge(child: Icon(Icons.star), counterChild: Container()),
         ),
       ),
     );
@@ -18,7 +18,7 @@ void main() {
     await tester.pumpWidget(
       MaterialApp(
         home: Scaffold(
-          body: GFBadgeIcon(icon: Icon(Icons.favorite)),
+          body: GFIconBadge(child: Icon(Icons.favorite), counterChild: Container()),
         ),
       ),
     );
