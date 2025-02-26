@@ -19,7 +19,7 @@ void main() {
     await tester.pumpWidget(
       MaterialApp(
         home: Scaffold(
-          body: GFBadgeButton(child: Container(key: childKey)),
+          body: GFBadgeButton(icon: Container(key: childKey)),
         ),
       ),
     );
