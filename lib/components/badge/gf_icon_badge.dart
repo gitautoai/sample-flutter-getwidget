@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:getwidget/getwidget.dart';
 
-class GFIconBadge extends StatefulWidget {
+class GFBadgeIcon extends StatefulWidget {
   /// Create badges of all types, check out [GFBadge] for button badges and [GFIconBadge] for icon badges.
   const GFIconBadge(
       {Key? key,
