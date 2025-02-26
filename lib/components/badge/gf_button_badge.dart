@@ -3,7 +3,7 @@ import 'package:getwidget/getwidget.dart';
 
 class GFBadgeButton extends StatefulWidget {
   /// Create badges badges of all types. check out [GFIconButton] for icon badges, and [GFBadge] for badges
-  const GFButtonBadge({
+  const GFBadgeButton({
     Key? key,
     required this.onPressed,
     this.onHighlightChanged,
