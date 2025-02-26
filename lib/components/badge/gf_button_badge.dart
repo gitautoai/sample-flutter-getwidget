@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:getwidget/getwidget.dart';
 
-class GFButtonBadge extends StatefulWidget {
+class GFBadgeButton extends StatefulWidget {
   /// Create badges badges of all types. check out [GFIconButton] for icon badges, and [GFBadge] for badges
-  const GFButtonBadge({
+  const GFBadgeButton({
     Key? key,
     required this.onPressed,
     this.onHighlightChanged,
@@ -214,10 +214,10 @@ class GFButtonBadge extends StatefulWidget {
   final Widget? icon;
 
   @override
-  _GFButtonBadgeState createState() => _GFButtonBadgeState();
+  _GFBadgeButtonState createState() => _GFBadgeButtonState();
 }
 
-class _GFButtonBadgeState extends State<GFButtonBadge> {
+class _GFBadgeButtonState extends State<GFBadgeButton> {
   @override
   Widget build(BuildContext context) => ConstrainedBox(
         constraints: const BoxConstraints(
