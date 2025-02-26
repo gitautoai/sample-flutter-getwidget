@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:getwidget/getwidget.dart';
+import 'package:getwidget/components/badge/gf_button_badge.dart';
 
 void main() {
   testWidgets('GFBadgeButton displays text when provided', (WidgetTester tester) async {
