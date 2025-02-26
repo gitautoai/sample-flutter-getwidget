@@ -7,7 +7,7 @@ void main() {
     await tester.pumpWidget(
       MaterialApp(
         home: Scaffold(
-          body: GFButtonBadge(text: 'Button Badge', onPressed: () {}),
+          body: GFBadgeButton(text: 'Button Badge', onPressed: () {}),
         ),
       ),
     );
