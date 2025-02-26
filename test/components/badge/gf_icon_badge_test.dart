@@ -1,0 +1,27 @@
+import 'package:flutter/material.dart';
+import 'package:flutter_test/flutter_test.dart';
+import 'package:getwidget/getwidget.dart';
+
+void main() {
+  testWidgets('GFBadgeIcon displays an icon when provided', (WidgetTester tester) async {
+    await tester.pumpWidget(
+      MaterialApp(
+        home: Scaffold(
+          body: GFBadgeIcon(icon: Icon(Icons.star)),
+        ),
+      ),
+    );
+    expect(find.byIcon(Icons.star), findsOneWidget);
+  });
+
+  testWidgets('GFBadgeIcon displays an icon with default properties', (WidgetTester tester) async {
+    await tester.pumpWidget(
+      MaterialApp(
+        home: Scaffold(
+          body: GFBadgeIcon(icon: Icon(Icons.favorite)),
+        ),
+      ),
+    );
+    expect(find.byIcon(Icons.favorite), findsOneWidget);
+  });
+}
