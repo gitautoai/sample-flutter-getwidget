@@ -9,8 +9,7 @@ void main() {
         body: GFIconBadge(
           child: Icon(Icons.star),
           counterChild: Text('3', style: TextStyle(color: Colors.white, fontSize: 12)),
-          position: GFBadgePosition.topRight,
-          badgeColor: Colors.red,
+          position: GFBadgePosition.topEnd(),
         ),
       ),
     ));
