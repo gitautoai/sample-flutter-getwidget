@@ -6,7 +6,7 @@ void main() {
   testWidgets('GfButton displays text', (WidgetTester tester) async {
     await tester.pumpWidget(const MaterialApp(
       home: Scaffold(
-        body: GfButton(
+        body: GFButton(
           onPressed: null,
           text: 'Click Me',
         ),
