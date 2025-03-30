@@ -19,4 +19,4 @@ jobs:
         with:
           flutter-version: '3.7.0'
       - name: Run Flutter Tests
-        run: flutter test
+        run: flutter test --coverage
